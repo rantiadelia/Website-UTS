@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: white;
+}
+
+/* header*/
+.order-header {
+  position: relative; 
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.order-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Title */
+.order-title {
+  text-align: center;
+  padding: 25px 20px 10px;
+}
+
+.order-title h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #ff2e2e;
+  text-shadow: 0 0 5px rgba(255, 0, 0, .5);
+}
+
+.order-title p {
+  font-size: 14px;
+  color: #ffe7b0;
+  opacity: .9;
+  margin-top: 5px;
+}
+
+/*wrap form */
+.form-container {
+  padding: 22px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-size: 14px;
+  color: #ffbbbb;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  background: #141414;
+  border: 1px solid #b30000;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+}
+
+form textarea {
+  height: 85px;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  outline: none;
+  border-color: #ff4040;
+  box-shadow: 0 0 7px rgba(255, 30, 30, 0.5);
+}
+
+/* tombol */
+.send-btn {
+  width: 100%;
+  background: #b30000;
+  color: white;
+  padding: 12px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.send-btn:hover {
+  background: #d13434;
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.5);
+  transform: translateY(-3px);
+}
+
+/* footer */ 
+.order-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  opacity: .75;
+  color: #aaa;
+}
+
+/* responsive buat tampilan menyesuaikan*/
+@media (max-width: 768px) {
+
+  .order-header {
+    height: 30vh;
+  }
+
+  .order-title h1 {
+    font-size: 26px;
+  }
+
+  .order-title p {
+    font-size: 13px;
+  }
+
+  .form-container {
+    padding: 18px;
+  }
+
+  form label {
+    font-size: 13px;
+  }
+
+  form input,
+  form textarea,
+  form select {
+    font-size: 13px;
+    padding: 9px;
+  }
+
+  .send-btn {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .order-header {
+    height: 25vh;
+  }
+
+  .order-title {
+    padding: 20px 10px 5px;
+  }
+
+  .order-title h1 {
+    font-size: 22px;
+  }
+
+  .order-title p {
+    font-size: 12px;
+  }
+
+  .form-container {
+    padding: 14px;
+    width: 92%;
+  }
+
+  form label {
+    font-size: 12px;
+  }
+
+  form input,
+  form textarea,
+  form select {
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 6px;
+  }
+
+  .send-btn {
+    font-size: 14px;
+    padding: 9px;
+  }
+
+  .order-footer {
+    font-size: 12px;
+    padding: 15px;
+  }
+}

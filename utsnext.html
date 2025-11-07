@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BSD Merch Store</title>
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- swipe -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="utsnext.css" />
+  
+  <!--Favicon-->
+  <link rel="icon" href="https://i.pinimg.com/1200x/b0/6d/2e/b06d2e5ed14843799ee49418233fc8a2.jpg" type="image/jpeg">
+</head>
+<body>
+
+  <!-- navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <a href="index.html">
+      <i class="fa-solid fa-house"></i>
+      </a>
+    </div>
+
+    <div class="brand">Bungo Stray Dogs Merchandise</div>
+    
+    <div class="nav-right">
+      <i id="searchToggle" class="fa-solid fa-magnifying-glass"></i>
+      <a href="utsform.html">
+      <i class="fa-solid fa-bag-shopping"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- search bar -->
+  <div class="search-box hidden">
+    <input id="searchInput" type="text" placeholder="Search products..." />
+  </div>
+
+ <!-- hero banner -->
+  <section class="hero">
+     <img loading="lazy" src="https://i.postimg.cc/RhmVcFV3/coba5.jpg" alt="Bungo Stray Dogs banner" class="hero-img" />
+    </section>
+   
+  <!--tulisan berjalan-->
+  <div class="ticker">
+    <p> Hi, BSD fans! Here you can explore a collection of Bungo Stray Dogs merch — mostly official items, plus a few handpicked fan-made pieces to bring your favorite characters closer to you.</p>
+  </div>
+
+  <!-- new section -->
+  <section class="section section-new">
+    <h2 class="section-title">New Arrivals</h2>  
+     <div class="product-grid">
+      <article class="card new">
+         <span class="tag">NEW</span>
+         <img loading="lazy" src="https://i.postimg.cc/L4Vmcm8W/new4.jpg" alt="BSD plush">
+         <p class="product-name">Dead Apple Bushiroad Plush</p>
+         <p class="price">Rp. 185.000</p>
+          <a href="utsform.html" class="shop-btn">Shop Now</a>
+        </article>
+      
+      <article class="card new">
+         <span class="tag">NEW</span>
+         <img loading="lazy" src="https://i.postimg.cc/jSDKnN4r/new2.jpg" alt="BSD Plush">
+         <p class="product-name">Tapioca Magnetic Hitani Hug Plush</p>
+         <p class="price">Rp. 255.000</p>
+         <a href="utsform.html" class="shop-btn">Shop Now</a>
+        </article>
+        
+      <article class="card new">
+        <span class="tag">NEW</span>
+        <img loading="lazy" src="https://i.postimg.cc/Tw6XssMX/new3.jpg" alt="Bsd stackup">
+        <p class="product-name">Tsumichen Stack Up & Change Box</p>
+        <p class="price">Rp. 710.000</p>
+        <a href="utsform.html" class="shop-btn">Shop Now</a>
+      </article>
+    </div>
+  </section>
+
+<!-- best section -->
+ <section class="section section-best">
+  <h2 class="section-title">Best Seller</h2>  
+  <div class="product-grid">
+    
+    <article class="card best"> 
+      <span class="tag">BEST</span>
+      <img loading="lazy" src="https://i.postimg.cc/Y0DZtnVg/best1.jpg" alt="Figur">
+      <p class="product-name">Dazai & Akutagawa Look Up Figure</p>
+      <p class="price">Rp. 577.000</p>
+      <a href="utsform.html" class="shop-btn">Shop Now</a>
+    </article>
+    
+    <article class="card best">
+      <span class="tag">BEST</span>
+      <img loading="lazy" src="https://i.postimg.cc/t4xwHzz9/best3.jpg" alt="Chuuya doll">
+      <p class="product-name">Chuuya Plush Doll Fanmade</p>
+      <p class="price">Rp. 165.000</p>
+      <a href="utsform.html" class="shop-btn">Shop Now</a>
+    </article>
+    
+    <article class="card best sold">
+      <span class="tag">BEST</span>
+      <div class="sold-overlay">SOLD OUT</div>
+      <img loading="lazy" src="https://i.postimg.cc/Pqb7Crc9/best2.jpg" alt="Akutagawa doll">
+      <p class="product-name">Akutagawa Plush Doll Fanmade</p>
+      <p class="price">Rp. 165.000</p>
+      <button disabled>Sold Out</button>
+    </article>
+  </div>
+</section>
+
+<!-- featued section-->
+ <section class="section section-others">
+  <h2 class="section-title">Featured Items</h2>  
+  <div class="product-grid">
+    <article class="card">
+      <img loading="lazy" src="https://i.postimg.cc/Y0Pn54GQ/feat1.jpg" alt="Badge">
+      <p class="product-name">Badge Chibi Box</p>
+      <p class="price">Rp. 40.000</p>
+      <a href="utsform.html" class="shop-btn">Shop Now</a>
+    </article>
+    
+    <article class="card">
+      <img loading="lazy" src="https://i.postimg.cc/PfVRp73D/feat2.jpg" alt="Acylic">
+      <p class="product-name">Retro-Chic Acrylic Keychain</p>
+      <p class="price">Rp. 250.000</p>
+       <a href="utsform.html" class="shop-btn">Shop Now</a>
+      </article>
+      
+      <article class="card">
+        <img loading="lazy" src="https://i.postimg.cc/X7ZDwgmm/feat3.jpg" alt="doll">
+        <p class="product-name">Finger Puppet Cat</p>
+        <p class="price">Rp. 350.000</p>
+        <a href="utsform.html" class="shop-btn">Shop Now</a>
+      </article>
+    </div>
+</section>
+
+<!--order notes-->
+ <div class="order-note">
+  <span class="glow-text">>_< hey!</span> Before ordering, please fill the form so we can prepare your items properly.
+  Tap the <span class="highlight">button below</span> to continue.
+  <span class="order-hint">↓ scroll down ↓</span>
+</div>
+<!-- tombol order-->
+<div class="order-btn-wrapper">
+  <a href="utsform.html" class="order-btn">Go to Order Page</a>
+</div>
+  <footer class="footer"> © 2025 Bungo Stray Dogs Fanpage</footer>
+
+  <!-- javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src= "utsnext.js"></script>
+</body>
+</html>
